@@ -39,6 +39,7 @@
 array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
 
 def quick_sort(array):
+  print(array)
   if len(array) <= 1:
     return array
   pivot = array[0] # 피벗은 첫 번째 원소

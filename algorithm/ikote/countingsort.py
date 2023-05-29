@@ -7,6 +7,12 @@ count = [0] * (max(array) + 1)
 for i in range(len(array)):
   count[array[i]] += 1 # 각 데이터에 해당하는 인덱스의 값 증가
 
+print([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
 for i in range(len(count)):
+  print(' {}'.format(count[i]), end=' ')
+print("\nResult is...")
+
+for i in range(len(count)):
+  # print(array)
   for j in range(count[i]):
-    print(i, end = '')
+    print(i, end = ' ')
