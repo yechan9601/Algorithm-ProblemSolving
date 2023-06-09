@@ -1,6 +1,7 @@
 # O(n^2)
 
-array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+# array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
+array = [7, 5, 9, 0, 3]
 
 print(array)
 for i in range(len(array)):
